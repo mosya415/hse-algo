@@ -1,4 +1,4 @@
-"""Запуск: python3 test_tree_traversal.py"""
+"""Тесты к задаче 1. Запуск: python3 test_tree_traversal.py"""
 
 import unittest
 

@@ -1,4 +1,11 @@
-"""Проверка баланса высот бинарного дерева."""
+"""Задача 3. Проверка баланса высот бинарного дерева."""
+
+
+class Node:
+    def __init__(self, value, left=None, right=None):
+        self.value = value
+        self.left = left
+        self.right = right
 
 
 def is_balanced(root):
@@ -27,7 +34,5 @@ def is_balanced(root):
 
 
 if __name__ == "__main__":
-    from tree_traversal import Node
-
     tree = Node(8, Node(4, Node(2), Node(6)), Node(12, None, Node(14)))
     print(is_balanced(tree))

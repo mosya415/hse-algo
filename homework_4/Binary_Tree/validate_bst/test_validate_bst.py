@@ -1,9 +1,8 @@
-"""Запуск: python3 test_validate_bst.py"""
+"""Тесты к задаче 2. Запуск: python3 test_validate_bst.py"""
 
 import unittest
 
-from tree_traversal import Node
-from validate_bst import is_valid_bst
+from validate_bst import Node, is_valid_bst
 
 
 class TestValidateBST(unittest.TestCase):

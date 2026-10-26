@@ -1,4 +1,11 @@
-"""Проверка произвольного бинарного дерева на свойства BST."""
+"""Задача 2. Проверка произвольного бинарного дерева на свойства BST."""
+
+
+class Node:
+    def __init__(self, value, left=None, right=None):
+        self.value = value
+        self.left = left
+        self.right = right
 
 
 def is_valid_bst(root):
@@ -23,7 +30,5 @@ def is_valid_bst(root):
 
 
 if __name__ == "__main__":
-    from tree_traversal import Node
-
     tree = Node(10, Node(5), Node(15, Node(6), Node(20)))
     print(is_valid_bst(tree))

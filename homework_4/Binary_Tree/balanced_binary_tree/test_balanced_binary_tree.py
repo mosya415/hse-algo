@@ -1,9 +1,8 @@
-"""Запуск: python3 test_balanced_binary_tree.py"""
+"""Тесты к задаче 3. Запуск: python3 test_balanced_binary_tree.py"""
 
 import unittest
 
-from balanced_binary_tree import is_balanced
-from tree_traversal import Node
+from balanced_binary_tree import Node, is_balanced
 
 
 class TestBalancedBinaryTree(unittest.TestCase):
